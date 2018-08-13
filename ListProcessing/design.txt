@@ -1,0 +1,77 @@
+SWEN131 Assignment 1: Designs
+
+1. mapTwice()
+Create a mapTwice array list.
+Create a loop. In the loop, get the values of each position in the input 
+array list. Assign each those values to a variable which is multiplied by 2.
+Add each value to the mapTwice array list. 
+Return mapTwice array list.
+
+2. mapToUpper()
+Create a mapToUpper array list.
+Create a loop. In the loop, get the strings of each position in the input
+array. Assign each of those strings to a variable which is converted to 
+uppercase. Add each of the converted strings to the mapToUpper array list.
+Return the mapToUpper array list.
+
+3. boolean isPalindrome()
+Create an array list that will store the characters of the given word.
+Create a loop that gets all the characters from the string and add them
+to that array.
+if 1st == last, 2nd == 2nd to last, etc.
+If they do, return true.
+Inspiration: https://stackoverflow.com/questions/35858161/palindrome-arraylist
+
+4. filterStarts()
+Create an array list called filterStarts. Create a loop that will check 
+each string in the input array list and get the ones that start with the
+given prefix. Add those strings to the new array list. Return.
+
+5. foldSum()
+Create a loop. In the loop, get the values of each position in the input 
+array list. Add each double to a placeholder variable.
+Declare a total variable and add each double to it. Return total.
+
+6. boolean isOrderedAscending()
+Create a loop that checks each two adjacent positions in the array list
+and returns false if position 2 < position 1. Return boolean.
+
+7. matchingWords()
+Create an array list called matchingWords. Create a loop that will check if
+a given word in input1 is present in the same position in input2. Create a 
+second loop inside that runs through and checks the input1 words against all
+the input2 words. If an input1 word occurs in input2 && is in the same 
+position in input2, add it to the matchingWords array.
+
+8. intersection()
+Create an array list called matchingWords. Create a loop that will check if
+a given word in input1 is also present in input 2. Create a second loop
+inside that runs through and checks the input 1 word against all of the 
+input 2 words. Create If statement: if input word1 matches input word2, 
+add that word to the matchingWords array list.
+
+9. noDuplicates()
+Create an array list called noDuplicates. Add everything from input1 to the
+array. Create a loop that creates a variable, and then set it by getting a 
+value from input1. Create another loop which checks that value against the 
+rest of the values in the array. If the value is the same and is not the 
+first occurence, then remove.
+
+10. difference()
+Create an array list called difference. Create a loop that will add all
+words from input 1 to the array. Create another loop inside that will check
+if a given word in input1 is present in input2. If it is, remove it from
+the difference array. Return.
+
+11. symmetricDifference()
+Create a loop to check if a given string in input1 is present in input2. If
+it is, do not add it to the symmetric difference array.
+
+12. reverse()
+Create a loop which sets the first position as the last position and vice
+versa, for half the size of the array.
+
+13. shuffle()
+Create a loop which randomly generates an integer using the Math class and
+sets the first position in the array to an equal or later position in the
+array.
